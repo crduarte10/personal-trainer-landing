@@ -7,7 +7,7 @@
 }
 
 body {
-  background: url("f.jpg") center/cover no-repeat;
+  background: url("./f.jpg") center/cover no-repeat;
   color: white;
 }
 
