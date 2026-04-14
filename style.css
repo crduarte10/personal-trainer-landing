@@ -1,4 +1,26 @@
 body {
-  background: red;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url("https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b") center/cover no-repeat;
   color: white;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 40px;
+}
+
+.btn {
+  background: #25D366;
+  padding: 12px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
 }
