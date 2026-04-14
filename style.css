@@ -1,37 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-}
-
 body {
-  background: #111;
+  background: red;
   color: white;
-}
-
-/* HERO */
-.hero {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.hero-content h1 {
-  font-size: 40px;
-  margin-bottom: 10px;
-}
-
-.hero-content p {
-  margin-bottom: 20px;
-}
-
-.btn {
-  background: #25D366;
-  padding: 12px 20px;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
 }
