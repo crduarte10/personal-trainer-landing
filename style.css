@@ -23,6 +23,8 @@ body {
 .hero-content {
   max-width: 600px;
   padding: 20px;
+  text-align: center;
+
 }
 
 .hero-content h1 {
@@ -115,9 +117,7 @@ section div {
   border-color: #22c55e;
 }
 
-@media (max-width: 768px) {
-  .grid {
-    grid-template-columns: 1fr;
+
   }
 
   .hero-content h1 {
@@ -162,7 +162,15 @@ section div {
 
 
 @media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
   .steps {
     grid-template-columns: 1fr;
+  }
+
+  .hero-content h1 {
+    font-size: 32px;
   }
 }
