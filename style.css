@@ -41,9 +41,11 @@ p {
   line-height: 1.6;
 }
 
-.hero-content p {
-  margin-bottom: 18px;
-  opacity: 0.9;
+.hero-content {
+  max-width: 600px;
+  padding: 20px;
+  text-align: center;
+
 }
 
 .btn {
