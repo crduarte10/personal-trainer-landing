@@ -27,12 +27,14 @@ body {
 }
 
 .hero-content h1 {
-  font-size: 40px;
+  font-size: 48px;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
 .hero-content p {
-  margin-bottom: 20px;
+  margin-bottom: 18px;
+  opacity: 0.9;
 }
 
 .btn {
